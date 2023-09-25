@@ -1,0 +1,30 @@
+.mainContainer {
+  text-align: center;
+  background-color: #255555;
+  height: 300px;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding-top: 10px;
+  border-color: brown;
+  border-style: groove;
+}
+
+.secondChild button {
+  background-color: rgb(88, 80, 80);
+  border-style: solid;
+}
+
+
+.fourthChild button {
+  margin-top: 40px;
+}
+
+.playButton {
+  background-color: aquamarine;
+  border-style: solid;
+}
+
+.endButton {
+  background-color: brown;
+  border-style: solid;
+}

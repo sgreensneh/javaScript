@@ -1,0 +1,62 @@
+
+.mainContainer{
+  width: 100vw;
+  height: 100vh;
+}
+
+.brandName{
+  font-size: 1.5rem;
+  font-weight: 700;
+  /* vertical-align: top; */
+}
+
+.NavDiv{
+  height: 5%;
+  width: 100%;
+  display: flex;
+  padding: 1% 2%;
+}
+.NavDiv nav{
+  display: flex;
+  height: 100%;
+  width: 80%;
+  justify-content: end;
+}
+.NavDiv nav li{
+  list-style: none;
+  padding: 1% 2%;
+}
+.NavDiv nav li a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+}
+
+.getDemo{
+  /* border: 2px solid blue; */
+  /* color: blue; */
+  /* font-size: 14px; */
+  /* text-align: center; */
+  /* padding-top: 10px; */
+  /* padding-bottom: 10px; */
+  /* border-color: blue; */
+  /* border-style: solid; */
+  /* border-width: 1px; */
+  /* width: 100px; */
+  /* padding: 0% 1%; */
+}
+
+.login img{
+  width: 40%;
+  height: 60%;
+  padding-top: 25%;
+}
+
+.login{
+  display: flex;
+  text-align: center;
+  padding: 0% 1%;
+  justify-content: space-between;
+  font-weight: 700;
+}

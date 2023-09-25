@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>\
+  <style>
+    .toggle-switch {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 20px;
+}
+
+.toggle-switch input[type="checkbox"] {
+  display: none;
+}
+
+.switch-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.toggle-switch input[type="checkbox"]:checked + .switch-slider {
+  background-color: #2196F3;
+}
+
+.switch-slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.toggle-switch input[type="checkbox"]:checked + .switch-slider:before {
+  transform: translateX(20px);
+}
+
+  </style>
+</head>
+<body>
+  <label class="toggle-switch">
+    <input type="checkbox">
+    <span class="switch-slider"></span>
+  </label>
+  
+</body>
+</html>
